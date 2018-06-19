@@ -1,0 +1,26 @@
+{
+  "name": "wechat-ccs",
+  "version": "1.0.0",
+  "description": "A central control server for Wechat's public account development.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "cross-env node server.js",
+    "test": "cross-env NODE_ENV=testing node server.js",
+    "pro": "cross-env NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooyzee/wechat-ccs.git"
+  },
+  "keywords": [],
+  "author": "Cooyzee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cooyzee/wechat-ccs/issues"
+  },
+  "homepage": "https://github.com/cooyzee/wechat-ccs#readme",
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3"
+  }
+}
