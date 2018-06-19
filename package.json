@@ -4,7 +4,7 @@
   "description": "A central control server for Wechat's public account development.",
   "main": "server.js",
   "scripts": {
-    "dev": "cross-env node server.js",
+    "dev": "cross-env server.js",
     "test": "cross-env NODE_ENV=testing node server.js",
     "pro": "cross-env NODE_ENV=production node server.js"
   },
