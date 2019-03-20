@@ -1,8 +1,8 @@
 /**
  * Custom the buttons of wechat official account
  **/
-const redisClient = require('./redis_client')
-const config = require('./config')
+const redisClient = require('../helpers/redis')
+const config = require('../config')
 const request = require('request')
 
 exports.setButton = (req, res) => {

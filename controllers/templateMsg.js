@@ -2,8 +2,8 @@
  * Send template message
  **/
 
-const redisClient = require('./redis_client')
-const config = require('./config')
+const redisClient = require('../helpers/redis')
+const config = require('../config')
 const request = require('request')
 
 let templateUrl = 'https://api.weixin.qq.com/cgi-bin/message/template/send?access_token='

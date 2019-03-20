@@ -2,7 +2,7 @@
  * Redis client
  **/
 const redis = require('ioredis')
-const config = require('./config')
+const config = require('../config')
 const host = config.redisSever
 const ports = config.redisSeverPorts
 

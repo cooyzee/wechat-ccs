@@ -4,8 +4,8 @@
 const async = require('async')
 const sha1 = require('sha1')
 const request = require('request')
-const config = require('./config')
-const redisClient = require('./redis_client')
+const config = require('../config')
+const redisClient = require('../helpers/redis')
 
 // validate the server url
 exports.validate = (req, res) => {
