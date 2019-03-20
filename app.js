@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 
 const wechat = require('./controllers/wechat')
 const customButton = require('./controllers/customButton')
-const redisClient = require('./controllers/redis_client')
+const redisClient = require('./helpers/redis')
 const templateMsg = require('./controllers/templateMsg')
 
 // initiate token and ticket and refresh them every 2 hours
